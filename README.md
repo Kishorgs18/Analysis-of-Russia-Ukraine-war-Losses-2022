@@ -34,6 +34,18 @@ surface trends.
 | `*.db` | Generated SQLite database |
 | `*.ipynb` | Cleaning, DB build, and analysis notebook |
 
+## Selected outputs
+
+**Daily change in tank losses** — reported daily tank losses over the conflict,
+showing an intense early-war spike followed by sustained, noisy attrition.
+
+![Daily change in tank losses](assets/daily_tank_losses.png)
+
+**Top 10 most lossful dates** — the highest-loss days, broken down by equipment
+type (tanks dominate, with aircraft and drones layered in).
+
+![Top 10 most lossful dates](assets/top10_lossful_dates.png)
+
 ## Tech stack
 
 Python · pandas · **SQLite (sqlite3)** · Matplotlib · Seaborn
